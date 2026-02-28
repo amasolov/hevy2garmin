@@ -1,0 +1,25 @@
+# Example snippet for Home Assistant configuration.yaml
+# Add this to run the Hevy->Garmin sync from PyScript on a schedule.
+#
+# 1. Copy this project (or at least the sync package + run_sync.py) to a path
+#    your HA can execute, e.g. /config/scripts/ktmb1-fitness/
+# 2. Create a Python venv there and install deps (see README), or use the
+#    system Python if you've installed garth/requests there.
+# 3. Allow shell_command to run the script (see Home Assistant docs for
+#    allowlist_external_dirs / allowlist_external_commands if needed).
+# 4. Add the shell_command and (optional) secrets below.
+
+# --- shell_command: run sync in background (returns immediately, so no 60s timeout) ---
+shell_command:
+  # Runs sync in background; log goes to the file below. Adjust path to your setup.
+  hevy_garmin_sync: 'nohup python3 /config/scripts/ktmb1-fitness/run_sync.py >> /config/scripts/ktmb1-fitness/sync.log 2>&1 &'
+
+# --- Optional: use secrets for credentials ---
+# In secrets.yaml add:
+#   hevy_auth_token: "your-hevy-auth-token"
+#   garmin_email: "your@garmin.login"
+#   garmin_password: "your-password"
+#
+# Then run the script via an automation that sets env and calls the command, or
+# use a wrapper script that sources /config/secrets.env (you create this) before
+# calling run_sync.py.

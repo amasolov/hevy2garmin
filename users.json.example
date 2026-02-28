@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "alice",
+      "hevy_api_key": "your-hevy-api-key-alice",
+      "garmin_email": "alice@example.com",
+      "garmin_password": "alice-garmin-password"
+    },
+    {
+      "id": "bob",
+      "hevy_api_key": "your-hevy-api-key-bob",
+      "garmin_email": "bob@example.com",
+      "garmin_password": "bob-garmin-password",
+      "days_back": 14
+    }
+  ]
+}

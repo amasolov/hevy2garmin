@@ -1,0 +1,26 @@
+# Secrets
+users.json
+.env
+*.env.local
+
+# Garth session tokens (contain OAuth credentials)
+garth_session*/
+
+# State files (regenerated per-host)
+hevy_garmin_synced*.json
+unmapped_exercises.json
+
+# Local exercise mapping (generated/auto-updated per-host)
+exercise_mapping.json
+
+# Test artifacts
+test_workout.fit
+
+# IDE / editor
+.cursor/
+.vscode/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

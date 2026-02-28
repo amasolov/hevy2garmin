@@ -1,0 +1,164 @@
+{
+  "exercises": [
+    {
+      "hevy_title": "Warm Up",
+      "hevy_template_id": "79EF4E4F",
+      "category": "warm_up",
+      "name": "walkout"
+    },
+    {
+      "hevy_title": "Squat (Dumbbell)",
+      "hevy_template_id": "DCFF3E9F",
+      "category": "squat",
+      "name": "dumbbell_squat"
+    },
+    {
+      "hevy_title": "Lateral Lunge",
+      "hevy_template_id": "F2A37357",
+      "category": "lunge",
+      "name": "sliding_lateral_lunge"
+    },
+    {
+      "hevy_title": "Reverse Lunge (Dumbbell)",
+      "hevy_template_id": "FFDA283B",
+      "category": "lunge",
+      "name": "dumbbell_reverse_lunge"
+    },
+    {
+      "hevy_title": "Good Morning (Barbell)",
+      "hevy_template_id": "4180C405",
+      "category": "leg_curl",
+      "name": "good_morning"
+    },
+    {
+      "hevy_title": "Deadlift (Dumbbell)",
+      "hevy_template_id": "5F4E6DD3",
+      "category": "deadlift",
+      "name": "dumbbell_deadlift"
+    },
+    {
+      "hevy_title": "Lunge (Dumbbell)",
+      "hevy_template_id": "B537D09F",
+      "category": "lunge",
+      "name": "dumbbell_lunge"
+    },
+    {
+      "hevy_title": "Jump Squat",
+      "hevy_template_id": "70D4EBBF",
+      "category": "plyo",
+      "name": "jump_squat"
+    },
+    {
+      "hevy_title": "Curtsy Lunge (Dumbbell)",
+      "hevy_template_id": "D39EC9EB",
+      "category": "lunge",
+      "name": "weighted_curtsy_lunge"
+    },
+    {
+      "hevy_title": "Lunge",
+      "hevy_template_id": "5E1A7777",
+      "category": "lunge",
+      "name": "lunge"
+    },
+    {
+      "hevy_title": "Bench Press (Barbell)",
+      "category": "bench_press",
+      "name": "barbell_bench_press"
+    },
+    {
+      "hevy_title": "Bench Press (Dumbbell)",
+      "category": "bench_press",
+      "name": "dumbbell_bench_press"
+    },
+    {
+      "hevy_title": "Barbell Squat",
+      "category": "squat",
+      "name": "barbell_back_squat"
+    },
+    {
+      "hevy_title": "Deadlift (Barbell)",
+      "category": "deadlift",
+      "name": "barbell_deadlift"
+    },
+    {
+      "hevy_title": "Overhead Press (Barbell)",
+      "category": "shoulder_press",
+      "name": "barbell_shoulder_press"
+    },
+    {
+      "hevy_title": "Overhead Press (Dumbbell)",
+      "category": "shoulder_press",
+      "name": "overhead_dumbbell_press"
+    },
+    {
+      "hevy_title": "Hanging Leg Raise",
+      "category": "leg_raise",
+      "name": "hanging_leg_raise"
+    },
+    {
+      "hevy_title": "Pull Up",
+      "category": "pull_up",
+      "name": "pull_up"
+    },
+    {
+      "hevy_title": "Push Up",
+      "category": "push_up",
+      "name": "push_up"
+    },
+    {
+      "hevy_title": "Barbell Row",
+      "category": "row",
+      "name": "barbell_row"
+    },
+    {
+      "hevy_title": "Dumbbell Row",
+      "category": "row",
+      "name": "dumbbell_row"
+    },
+    {
+      "hevy_title": "Lat Pulldown",
+      "category": "pull_up",
+      "name": "lat_pulldown"
+    },
+    {
+      "hevy_title": "Plank",
+      "category": "plank",
+      "name": "plank"
+    },
+    {
+      "hevy_title": "Bicep Curl (Dumbbell)",
+      "category": "curl",
+      "name": "dumbbell_biceps_curl"
+    },
+    {
+      "hevy_title": "Triceps Pushdown",
+      "category": "triceps_extension",
+      "name": "triceps_pressdown"
+    },
+    {
+      "hevy_title": "Face Pull",
+      "category": "row",
+      "name": "face_pull"
+    },
+    {
+      "hevy_title": "Romanian Deadlift (Barbell)",
+      "category": "deadlift",
+      "name": "romanian_deadlift"
+    },
+    {
+      "hevy_title": "Goblet Squat",
+      "category": "squat",
+      "name": "goblet_squat"
+    },
+    {
+      "hevy_title": "Hip Thrust (Barbell)",
+      "category": "hip_raise",
+      "name": "barbell_hip_thrust_with_bench"
+    },
+    {
+      "hevy_title": "Calf Raise (Standing)",
+      "category": "calf_raise",
+      "name": "standing_calf_raise"
+    }
+  ]
+}
