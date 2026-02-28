@@ -43,9 +43,9 @@ def main():
     print(f"Session saved to: {session_dir}/")
     print(f"\nNext steps:")
     print(f"  1. Copy '{session_dir}/' to the remote host")
-    print(f"     e.g.: scp -r {session_dir} ha:/config/scripts/ktmb1-fitness/garth_session_alexey")
+    print(f"     e.g.: scp -r {session_dir} ha:/config/scripts/hevy2garmin/garth_session_alexey")
     print(f"  2. In users.json, set:")
-    print(f'     "garth_session_path": "/config/scripts/ktmb1-fitness/garth_session_alexey"')
+    print(f'     "garth_session_path": "/config/scripts/hevy2garmin/garth_session_alexey"')
     print(f"  3. The sync script will reuse this session (and auto-refresh tokens)")
 
 

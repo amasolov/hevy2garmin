@@ -5,14 +5,14 @@
       "hevy_api_key": "your-hevy-api-key-alice",
       "garmin_email": "alice@example.com",
       "garmin_password": "alice-garmin-password",
-      "garth_session_path": "/config/scripts/ktmb1-fitness/garth_session_alice"
+      "garth_session_path": "/config/scripts/hevy2garmin/garth_session_alice"
     },
     {
       "id": "bob",
       "hevy_api_key": "your-hevy-api-key-bob",
       "garmin_email": "bob@example.com",
       "garmin_password": "bob-garmin-password",
-      "garth_session_path": "/config/scripts/ktmb1-fitness/garth_session_bob",
+      "garth_session_path": "/config/scripts/hevy2garmin/garth_session_bob",
       "days_back": 14
     }
   ]

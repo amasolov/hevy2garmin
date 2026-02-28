@@ -1,4 +1,4 @@
-# ktmb1-fitness
+# hevy2garmin
 
 Sync workouts from **Hevy** to **Garmin Connect** as strength training FIT activities.
 

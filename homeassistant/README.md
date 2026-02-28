@@ -18,13 +18,13 @@ Run the sync as a **scheduled job** using PyScript and a shell command.
 
 Copy this repo (or at least the `sync/` package, `run_sync.py`, and `exercise_mapping.json`) to a directory your Home Assistant can read and execute, for example:
 
-- **Supervised / Core**: e.g. `/config/scripts/ktmb1-fitness/`
+- **Supervised / Core**: e.g. `/config/scripts/hevy2garmin/`
 - **Container**: ensure that path is in your config volume.
 
 Create a virtualenv and install dependencies:
 
 ```bash
-cd /config/scripts/ktmb1-fitness
+cd /config/scripts/hevy2garmin
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
@@ -47,11 +47,11 @@ If your Garmin account has MFA or you get CAPTCHA errors from the server:
    ```
 2. Copy the session directory to HA:
    ```bash
-   scp -r ./garth_session_myname ha:/config/scripts/ktmb1-fitness/
+   scp -r ./garth_session_myname ha:/config/scripts/hevy2garmin/
    ```
 3. Set `garth_session_path` in `users.json`:
    ```json
-   "garth_session_path": "/config/scripts/ktmb1-fitness/garth_session_myname"
+   "garth_session_path": "/config/scripts/hevy2garmin/garth_session_myname"
    ```
 
 The sync script uses `garth.resume()` with OAuth refresh tokens, so MFA is only needed once. Running the sync every 30 minutes keeps the tokens fresh.
@@ -63,9 +63,9 @@ In `configuration.yaml` (or an included file):
 ```yaml
 shell_command:
   hevy_garmin_sync: >-
-    nohup /config/scripts/ktmb1-fitness/.venv/bin/python
-    /config/scripts/ktmb1-fitness/run_sync.py
-    >> /config/scripts/ktmb1-fitness/sync.log 2>&1 &
+    nohup /config/scripts/hevy2garmin/.venv/bin/python
+    /config/scripts/hevy2garmin/run_sync.py
+    >> /config/scripts/hevy2garmin/sync.log 2>&1 &
 ```
 
 ### 6. Add the PyScript scheduled job
@@ -83,7 +83,7 @@ Reload PyScript (or restart HA) so the new script is loaded.
 
 ### 7. Check logs
 
-- **Sync script**: `tail -f /config/scripts/ktmb1-fitness/sync.log`
+- **Sync script**: `tail -f /config/scripts/hevy2garmin/sync.log`
 - **Home Assistant**: Developer Tools -> Logs, or check the PyScript log for the trigger.
 
 ## Summary
